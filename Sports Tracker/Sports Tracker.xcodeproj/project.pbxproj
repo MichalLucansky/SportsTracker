@@ -19,7 +19,7 @@
 		37FA376226EA24E9006197BE /* Achievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376126EA24E9006197BE /* Achievements.swift */; };
 		37FA376526EA3A9E006197BE /* SportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376426EA3A9E006197BE /* SportsViewModel.swift */; };
 		37FA376726EA9C7C006197BE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376626EA9C7C006197BE /* MapView.swift */; };
-		37FA376926EAB308006197BE /* AchivementCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376826EAB308006197BE /* AchivementCellView.swift */; };
+		37FA376926EAB308006197BE /* AchievementCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376826EAB308006197BE /* AchievementCellView.swift */; };
 		37FA376C26EB1F20006197BE /* PersistActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376B26EB1F20006197BE /* PersistActivity.swift */; };
 		37FA376F26EB210D006197BE /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376E26EB210D006197BE /* PersistanceManager.swift */; };
 		37FA377326EB79C9006197BE /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA377226EB79C9006197BE /* ActivityDetailView.swift */; };
@@ -42,7 +42,7 @@
 		37FA376126EA24E9006197BE /* Achievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievements.swift; sourceTree = "<group>"; };
 		37FA376426EA3A9E006197BE /* SportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewModel.swift; sourceTree = "<group>"; };
 		37FA376626EA9C7C006197BE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		37FA376826EAB308006197BE /* AchivementCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivementCellView.swift; sourceTree = "<group>"; };
+		37FA376826EAB308006197BE /* AchievementCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCellView.swift; sourceTree = "<group>"; };
 		37FA376B26EB1F20006197BE /* PersistActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistActivity.swift; sourceTree = "<group>"; };
 		37FA376E26EB210D006197BE /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
 		37FA377226EB79C9006197BE /* ActivityDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 				37FA375B26EA1947006197BE /* EnterSportAchievementView.swift */,
 				37FA375D26EA1981006197BE /* AllSportAchievementsOverview.swift */,
 				37FA376626EA9C7C006197BE /* MapView.swift */,
-				37FA376826EAB308006197BE /* AchivementCellView.swift */,
+				37FA376826EAB308006197BE /* AchievementCellView.swift */,
 				37FA377226EB79C9006197BE /* ActivityDetailView.swift */,
 			);
 			path = Views;
@@ -296,7 +296,7 @@
 			files = (
 				37FA376226EA24E9006197BE /* Achievements.swift in Sources */,
 				3783564026E94BDA0049E826 /* AppDelegate.swift in Sources */,
-				37FA376926EAB308006197BE /* AchivementCellView.swift in Sources */,
+				37FA376926EAB308006197BE /* AchievementCellView.swift in Sources */,
 				37FA376F26EB210D006197BE /* PersistanceManager.swift in Sources */,
 				37FA375C26EA1947006197BE /* EnterSportAchievementView.swift in Sources */,
 				3783563126E947160049E826 /* MainView.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  AchivementCellView.swift
+//  AchievementCellView.swift
 //  Sports Tracker
 //
 //  Created by Lucansky Michal on 9/9/21.
@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-struct AchivementCellView: View {
+struct AchievementCellView: View {
     let achivement: SportActivity
 
     var body: some View {
@@ -35,8 +35,8 @@ struct AchivementCellView: View {
     }
 }
 
-struct AchivementCellView_Previews: PreviewProvider {
+struct AchievementCellView_Previews: PreviewProvider {
     static var previews: some View {
-        AchivementCellView(achivement: SportActivity.demo)
+        AchievementCellView(achivement: SportActivity.demo)
     }
 }

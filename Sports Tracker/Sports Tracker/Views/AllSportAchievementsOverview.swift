@@ -34,7 +34,7 @@ struct AllSportAchievementsOverview: View {
                                     Text("No Localy stored achievements.")
                                 } else {
                                     ForEach(achievements.databaseStored) { sport in
-                                        AchivementCellView(achivement: sport)
+                                        AchievementCellView(achivement: sport)
                                     }
                                 }
                             }
@@ -46,7 +46,7 @@ struct AllSportAchievementsOverview: View {
                                     Text("No Cloud stored achievements.")
                                 } else {
                                     ForEach(achievements.cloudStored) { sport in
-                                        AchivementCellView(achivement: sport)
+                                        AchievementCellView(achivement: sport)
                                     }
                                 }
                             }
