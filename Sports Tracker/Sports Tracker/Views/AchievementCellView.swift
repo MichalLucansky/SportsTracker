@@ -9,34 +9,34 @@ import SwiftUI
 import MapKit
 
 struct AchievementCellView: View {
-    let achivement: SportActivity
+    let achievement: SportActivity
 
     var body: some View {
         HStack {
             Rectangle()
-                .fill(achivement.storeType.storeTypeColor)
+                .fill(achievement.storeType.storeTypeColor)
                 .frame(width: 16, height: .infinity)
-            Label("", systemImage: achivement.storeType.iconName)
+            Label("", systemImage: achievement.storeType.iconName)
                 .padding()
                 .foregroundColor(Color.primary)
             Spacer()
-            Text(achivement.name)
+            Text(achievement.name)
                 .bold()
                 .font(.headline)
                 .padding()
-            NavigationLink(destination: ActivityDetailView(coordinateRegion: makeActivityRegion(), achivement: achivement)) {}
+            NavigationLink(destination: ActivityDetailView(coordinateRegion: makeActivityRegion(), achievement: achievement)) {}
         }
     }
 
     func makeActivityRegion() -> MKCoordinateRegion {
         return MKCoordinateRegion(
-            center: achivement.location,
+            center: achievement.location,
             span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
     }
 }
 
 struct AchievementCellView_Previews: PreviewProvider {
     static var previews: some View {
-        AchievementCellView(achivement: SportActivity.demo)
+        AchievementCellView(achievement: SportActivity.demo)
     }
 }

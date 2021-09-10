@@ -10,10 +10,10 @@ import MapKit
 
 struct ActivityDetailView: View {
     @State var coordinateRegion: MKCoordinateRegion
-    let achivement: SportActivity
+    let achievement: SportActivity
     var body: some View {
             VStack {
-                if achivement.hasValidLocation {
+                if achievement.hasValidLocation {
                     ZStack {
                         Map(coordinateRegion: $coordinateRegion)
                         Circle()
@@ -22,15 +22,15 @@ struct ActivityDetailView: View {
                             .frame(width: 32, height: 32)
                     }
                 }
-                Text("Activity duration \(achivement.durationHours) h \(achivement.durationMinutes) min")
+                Text("Activity duration \(achievement.durationHours) h \(achievement.durationMinutes) min")
                     .font(.body)
                     .padding()
-                Label("", systemImage: achivement.storeType == .cloud ? "externaldrive.badge.icloud" : "externaldrive")
+                Label("", systemImage: achievement.storeType.iconName)
                     .padding()
                     .foregroundColor(Color.primary)
                     .font(.title)
             }
-            .navigationTitle(Text(achivement.name))
+            .navigationTitle(Text(achievement.name))
             .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -48,7 +48,7 @@ struct ActivityDetailView_Previews: PreviewProvider {
                     longitudeDelta: 0.2
                 )
             ),
-            achivement: SportActivity.demo
+            achievement: SportActivity.demo
         )
     }
 }
