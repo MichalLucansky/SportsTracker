@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3783562F26E947160049E826 /* Sports_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783562E26E947160049E826 /* Sports_TrackerApp.swift */; };
+		3783563126E947160049E826 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783563026E947160049E826 /* MainView.swift */; };
+		3783563326E947170049E826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3783563226E947170049E826 /* Assets.xcassets */; };
+		3783563626E947170049E826 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3783563526E947170049E826 /* Preview Assets.xcassets */; };
+		3783563E26E94A880049E826 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3783563D26E94A880049E826 /* GoogleService-Info.plist */; };
+		3783564026E94BDA0049E826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783563F26E94BDA0049E826 /* AppDelegate.swift */; };
+		37FA375C26EA1947006197BE /* EnterSportAchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA375B26EA1947006197BE /* EnterSportAchievementView.swift */; };
+		37FA375E26EA1981006197BE /* AllSportAchievementsOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA375D26EA1981006197BE /* AllSportAchievementsOverview.swift */; };
+		37FA376026EA235B006197BE /* SportActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA375F26EA235B006197BE /* SportActivity.swift */; };
+		37FA376226EA24E9006197BE /* Achievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376126EA24E9006197BE /* Achievements.swift */; };
+		37FA376526EA3A9E006197BE /* SportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376426EA3A9E006197BE /* SportsViewModel.swift */; };
+		37FA376726EA9C7C006197BE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376626EA9C7C006197BE /* MapView.swift */; };
+		37FA376926EAB308006197BE /* AchivementCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376826EAB308006197BE /* AchivementCellView.swift */; };
+		37FA376C26EB1F20006197BE /* PersistActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376B26EB1F20006197BE /* PersistActivity.swift */; };
+		37FA376F26EB210D006197BE /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA376E26EB210D006197BE /* PersistanceManager.swift */; };
+		37FA377326EB79C9006197BE /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA377226EB79C9006197BE /* ActivityDetailView.swift */; };
+		37FA377626EB8939006197BE /* UIApplication+firstResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA377526EB8939006197BE /* UIApplication+firstResponder.swift */; };
+		4053D36DDC2852D927F0993C /* Pods_Sports_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A3A9ECE6B7106DECCE74FE /* Pods_Sports_Tracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3783562B26E947160049E826 /* Sports Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sports Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3783562E26E947160049E826 /* Sports_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports_TrackerApp.swift; sourceTree = "<group>"; };
+		3783563026E947160049E826 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3783563226E947170049E826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3783563526E947170049E826 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3783563726E947170049E826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3783563D26E94A880049E826 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3783563F26E94BDA0049E826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37FA375B26EA1947006197BE /* EnterSportAchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterSportAchievementView.swift; sourceTree = "<group>"; };
+		37FA375D26EA1981006197BE /* AllSportAchievementsOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSportAchievementsOverview.swift; sourceTree = "<group>"; };
+		37FA375F26EA235B006197BE /* SportActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportActivity.swift; sourceTree = "<group>"; };
+		37FA376126EA24E9006197BE /* Achievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievements.swift; sourceTree = "<group>"; };
+		37FA376426EA3A9E006197BE /* SportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewModel.swift; sourceTree = "<group>"; };
+		37FA376626EA9C7C006197BE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		37FA376826EAB308006197BE /* AchivementCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivementCellView.swift; sourceTree = "<group>"; };
+		37FA376B26EB1F20006197BE /* PersistActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistActivity.swift; sourceTree = "<group>"; };
+		37FA376E26EB210D006197BE /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		37FA377226EB79C9006197BE /* ActivityDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		37FA377526EB8939006197BE /* UIApplication+firstResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+firstResponder.swift"; sourceTree = "<group>"; };
+		77CB6AE5756508165F715F43 /* Pods-Sports Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sports Tracker.release.xcconfig"; path = "Target Support Files/Pods-Sports Tracker/Pods-Sports Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		7D8D40417D7E492BC1BD052C /* Pods-Sports Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sports Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Sports Tracker/Pods-Sports Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		87A3A9ECE6B7106DECCE74FE /* Pods_Sports_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sports_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3783562826E947160049E826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4053D36DDC2852D927F0993C /* Pods_Sports_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3783562226E947160049E826 = {
+			isa = PBXGroup;
+			children = (
+				3783562D26E947160049E826 /* Sports Tracker */,
+				3783562C26E947160049E826 /* Products */,
+				DC7AD1153B66C41C6C124395 /* Pods */,
+				ED22CC615DA23A09674FEF8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3783562C26E947160049E826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3783562B26E947160049E826 /* Sports Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3783562D26E947160049E826 /* Sports Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				37FA377426EB8915006197BE /* Extensions */,
+				37FA376D26EB20F9006197BE /* Managers */,
+				37FA375A26EA18DA006197BE /* Views */,
+				37FA375926EA18D0006197BE /* ViewModels */,
+				37FA375826EA18C9006197BE /* Models */,
+				3783562E26E947160049E826 /* Sports_TrackerApp.swift */,
+				3783563226E947170049E826 /* Assets.xcassets */,
+				3783563726E947170049E826 /* Info.plist */,
+				3783563D26E94A880049E826 /* GoogleService-Info.plist */,
+				3783563426E947170049E826 /* Preview Content */,
+				3783563F26E94BDA0049E826 /* AppDelegate.swift */,
+			);
+			path = "Sports Tracker";
+			sourceTree = "<group>";
+		};
+		3783563426E947170049E826 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3783563526E947170049E826 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37FA375826EA18C9006197BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37FA376A26EB1EDF006197BE /* RealmObject */,
+				37FA375F26EA235B006197BE /* SportActivity.swift */,
+				37FA376126EA24E9006197BE /* Achievements.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37FA375926EA18D0006197BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				37FA376426EA3A9E006197BE /* SportsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		37FA375A26EA18DA006197BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3783563026E947160049E826 /* MainView.swift */,
+				37FA375B26EA1947006197BE /* EnterSportAchievementView.swift */,
+				37FA375D26EA1981006197BE /* AllSportAchievementsOverview.swift */,
+				37FA376626EA9C7C006197BE /* MapView.swift */,
+				37FA376826EAB308006197BE /* AchivementCellView.swift */,
+				37FA377226EB79C9006197BE /* ActivityDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37FA376A26EB1EDF006197BE /* RealmObject */ = {
+			isa = PBXGroup;
+			children = (
+				37FA376B26EB1F20006197BE /* PersistActivity.swift */,
+			);
+			path = RealmObject;
+			sourceTree = "<group>";
+		};
+		37FA376D26EB20F9006197BE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				37FA376E26EB210D006197BE /* PersistanceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		37FA377426EB8915006197BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				37FA377526EB8939006197BE /* UIApplication+firstResponder.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC7AD1153B66C41C6C124395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D8D40417D7E492BC1BD052C /* Pods-Sports Tracker.debug.xcconfig */,
+				77CB6AE5756508165F715F43 /* Pods-Sports Tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED22CC615DA23A09674FEF8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87A3A9ECE6B7106DECCE74FE /* Pods_Sports_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3783562A26E947160049E826 /* Sports Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3783563A26E947170049E826 /* Build configuration list for PBXNativeTarget "Sports Tracker" */;
+			buildPhases = (
+				BC3FDC9565EF5A23CB377CA9 /* [CP] Check Pods Manifest.lock */,
+				3783562726E947160049E826 /* Sources */,
+				3783562826E947160049E826 /* Frameworks */,
+				3783562926E947160049E826 /* Resources */,
+				F56CD3BA3C1239ED2A156645 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sports Tracker";
+			productName = "Sports Tracker";
+			productReference = 3783562B26E947160049E826 /* Sports Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3783562326E947160049E826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3783562A26E947160049E826 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 3783562626E947160049E826 /* Build configuration list for PBXProject "Sports Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3783562226E947160049E826;
+			productRefGroup = 3783562C26E947160049E826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3783562A26E947160049E826 /* Sports Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3783562926E947160049E826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3783563626E947170049E826 /* Preview Assets.xcassets in Resources */,
+				3783563326E947170049E826 /* Assets.xcassets in Resources */,
+				3783563E26E94A880049E826 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC3FDC9565EF5A23CB377CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sports Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56CD3BA3C1239ED2A156645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sports Tracker/Pods-Sports Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sports Tracker/Pods-Sports Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sports Tracker/Pods-Sports Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3783562726E947160049E826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FA376226EA24E9006197BE /* Achievements.swift in Sources */,
+				3783564026E94BDA0049E826 /* AppDelegate.swift in Sources */,
+				37FA376926EAB308006197BE /* AchivementCellView.swift in Sources */,
+				37FA376F26EB210D006197BE /* PersistanceManager.swift in Sources */,
+				37FA375C26EA1947006197BE /* EnterSportAchievementView.swift in Sources */,
+				3783563126E947160049E826 /* MainView.swift in Sources */,
+				37FA377626EB8939006197BE /* UIApplication+firstResponder.swift in Sources */,
+				3783562F26E947160049E826 /* Sports_TrackerApp.swift in Sources */,
+				37FA376C26EB1F20006197BE /* PersistActivity.swift in Sources */,
+				37FA376026EA235B006197BE /* SportActivity.swift in Sources */,
+				37FA375E26EA1981006197BE /* AllSportAchievementsOverview.swift in Sources */,
+				37FA376726EA9C7C006197BE /* MapView.swift in Sources */,
+				37FA376526EA3A9E006197BE /* SportsViewModel.swift in Sources */,
+				37FA377326EB79C9006197BE /* ActivityDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3783563826E947170049E826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3783563926E947170049E826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3783563B26E947170049E826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8D40417D7E492BC1BD052C /* Pods-Sports Tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sports Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = A9YN63GW95;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sports Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.smartmobile.Sports-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3783563C26E947170049E826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77CB6AE5756508165F715F43 /* Pods-Sports Tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sports Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = A9YN63GW95;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sports Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.smartmobile.Sports-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3783562626E947160049E826 /* Build configuration list for PBXProject "Sports Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3783563826E947170049E826 /* Debug */,
+				3783563926E947170049E826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3783563A26E947170049E826 /* Build configuration list for PBXNativeTarget "Sports Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3783563B26E947170049E826 /* Debug */,
+				3783563C26E947170049E826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3783562326E947160049E826 /* Project object */;
+}
